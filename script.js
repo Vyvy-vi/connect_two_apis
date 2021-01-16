@@ -1,3 +1,8 @@
+mainWindow = new BrowserWindow({
+    webPreferences: {
+        nodeIntegration: true
+    }
+});
 
 require('dotenv').config();
 
