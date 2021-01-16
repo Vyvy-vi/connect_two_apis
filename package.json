@@ -1,0 +1,26 @@
+{
+  "name": "connect_two_apis",
+  "version": "1.0.0",
+  "description": "Connecting two apis for MLH LHD: BUILD",
+  "main": "script.js",
+  "homepage": "https://github.com/Vyvy-vi/connect_two_apis#readme",
+  "scripts": {
+    "deploy": "gh-pages -d ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vyvy-vi/connect_two_apis.git"
+  },
+  "author": "Vyvy-vi",
+  "license": "MIT",
+  "homepage": "https://Vyvy-vi.github.io/connect_two_apis",
+  "bugs": {
+    "url": "https://github.com/Vyvy-vi/connect_two_apis/issues"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
