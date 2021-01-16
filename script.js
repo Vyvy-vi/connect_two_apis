@@ -1,12 +1,7 @@
-mainWindow = new BrowserWindow({
-    webPreferences: {
-        nodeIntegration: true
-    }
-});
 
-require('dotenv').config();
+const dotenv = require('dotenv').config();
 
-// const theKey = process.env.dictKey;
+const theKey = process.env.dictKey;
 
 const body = document.querySelector('body');
 const button = document.querySelector('button');
