@@ -1,6 +1,4 @@
-
-const dotenv = require('dotenv').config();
-
+import process from dotenv;
 const theKey = process.env.dictKey;
 
 const body = document.querySelector('body');
