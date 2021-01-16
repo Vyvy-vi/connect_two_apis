@@ -1,4 +1,4 @@
-import process from dotenv;
+import process from 'dotenv';
 const theKey = process.env.DICTKEY;
 
 const body = document.querySelector('body');
