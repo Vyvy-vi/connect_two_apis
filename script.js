@@ -1,6 +1,8 @@
-'use strict';
 
-const theKey = process.env.dictKey;
+require('dotenv').config();
+
+// const theKey = process.env.dictKey;
+
 const body = document.querySelector('body');
 const button = document.querySelector('button');
 const button2 = document.querySelector('.search-button')
