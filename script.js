@@ -1,5 +1,4 @@
-import process from 'dotenv';
-const theKey = process.env.DICTKEY;
+const theKey = "84f6cc51-cc2f-4a54-b7c8-f37e6d1f70cc"
 
 const body = document.querySelector('body');
 const button = document.querySelector('button');
